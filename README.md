@@ -63,3 +63,7 @@ This reflects real-world debugging and cross-platform problem-solving.
 ```bash
 chmod +x monitor.sh
 ./monitor.sh
+
+## Sample Output
+
+A sanitized example of the generated system report is included in the `sample-output` folder to demonstrate the structure and analysis of system data.
