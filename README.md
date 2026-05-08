@@ -55,9 +55,12 @@ This project automates system monitoring and basic security analysis on a Linux 
   **Solution:** Adapted commands (e.g., replaced `ps --sort` with `sort` and used `lsof` for network analysis)  
 
 This reflects real-world debugging and cross-platform problem-solving.
+
 ## Sample Output
 
+
 A sanitized example of the generated system report is included in the `sample-output` folder to demonstrate the structure and analysis of system data.
+
 ---
 
 ## How to Run
