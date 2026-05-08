@@ -1,0 +1,28 @@
+===== Linux System Monitoring Report =====
+Generated on: Tue May 7 14:32:10 UTC 2026
+
+---- System Information ----
+Linux linux-machine 5.15.0-84-generic x86_64 GNU/Linux
+
+---- Running Processes ----
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.1 169000  1100 ?        Ss   10:00   0:01 systemd
+user      1201  5.2  3.4 500000 35000 ?        Sl   10:05   1:20 python3 monitor.py
+user      1350  3.1  2.1 420000 22000 ?        Sl   10:06   0:45 node server.js
+user      1422  1.5  1.0 300000 10000 ?        S    10:07   0:20 browser_process
+
+---- Active Network Connections ----
+COMMAND     PID USER   FD   TYPE DEVICE SIZE/OFF NODE NAME
+python3    1201 user    3u  IPv4  12345      0t0  TCP 127.0.0.1:8000 (LISTEN)
+node       1350 user    5u  IPv4  12346      0t0  TCP 0.0.0.0:3000 (LISTEN)
+
+---- Logged-in Users ----
+user     pts/0        2026-05-07 14:00 (192.168.x.x)
+
+---- High CPU Processes ----
+USER       PID %CPU %MEM COMMAND
+user      1201  5.2  3.4 python3 monitor.py
+user      1350  3.1  2.1 node server.js
+user      1422  1.5  1.0 browser_process
+
+Monitoring Complete. Check logs/system_report.txt 
